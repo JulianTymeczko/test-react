@@ -1,3 +1,14 @@
+.question {
+  background-color: white;
+  border-radius: 5px;
+
+  & > div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .answer {
   display: none;
 }
